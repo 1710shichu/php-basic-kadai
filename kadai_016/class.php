@@ -24,7 +24,7 @@
     // インスタンス化
     $food = new Food('potato', 250);
     // メソッドにアクセスしメソッドを実行
-    print_r ($name);
+    print_r ($food);
     echo'<br>';
 
   // クラスの定義
@@ -46,7 +46,7 @@
     // インスタンス化
     $animal = new Animal('dog', 60, 5000);
     // インスタンス$animalに各プロパティの値を出力する
-    print_r($name);
+    print_r($animal);
     echo '<br>';
 
     $food->show_price(250);
