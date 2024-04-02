@@ -12,7 +12,7 @@
       private $name;
       private $price;
       // メソッドの定義
-      public function show_price($price){
+      public function show_price(){
         echo $this->price;
         }
       // コンストラクタの初期化
@@ -33,7 +33,7 @@
       private $height;
       private $weight;
 
-      public function show_height($height){
+      public function show_height(){
       echo $this->height;
      }
     // コンストラクタの初期化
@@ -49,10 +49,10 @@
     print_r($animal);
     echo '<br>';
 
-    $food->show_price(250);
+    $food->show_price();
     echo '<br>';
 
-    $animal->show_height(60);
+    $animal->show_height();
     echo'<br>';
 
    ?>
